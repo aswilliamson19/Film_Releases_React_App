@@ -2,11 +2,24 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Stoke', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./movieReel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2F4F4F;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: whitesmoke;
 }
